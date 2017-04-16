@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ekranti_project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+/*for background responsive*/
+  .bg {
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box{
+	height:50px;
+	width:1332px;
+	border:1px solid black;
+	float:right;
+	/*background-color: #f3f3f3;*/
+
+
+}
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+	<div class="container-fluid">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#home">HOME</a></li>
+			<li class="active"><a href="#healthcare">HEALTH</a></li>
+			
+			<li><a href="#register">REGISTER</a></li>
+			<li><a href="#app">App</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+		</ul>
+	</div>
+</nav>
+<section class="bg" id="home" style="width:auto;height:auto;background-repeat: no-repeat;background-image: url('digin.jpg');background-size:stretch;opacity: 1" >
+
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="box">
+
+<marquee direction="left">
+
+<br><h4><strong>
+>>New hospitals set in Vellore  
+>>Doctors demand hike in their fees  
+>>Naruvi Hospitals to give world class health facilities
+>>Rise in Malaria near the slum areas in Vellore 
+</strong>
+</h4>
+
+</marquee>
+</div>
+<center><h1 style="margin-top: 0;padding-top: 13%;font-weight:1000"><p style="color:orange"><h2>Welcome to digitalized VELLORE</h2></p>
+
+
+
+
+</section>
+
+<section class="bg" id="healthcare" style="width:auto;height:auto;background-image: url('healthcare.jpg');background-size:stretch;background-repeat:no-repeat;opacity:0.8">
+<div class="container">
+  <h2><p style="color:red">EMERGENCY</p></h2>
+  <p style="color:white">Click here to select the hospital</p>
+  <p style="color:white">Check if there are available beds for emegency.....</p>                                          
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Best Hospitals
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    
+      <li><a href="#Laksmi">Laksmi Hospital</a></li>
+      <li><a href="#Kumaran">Kumaran Hospital</a></li>
+      <li><a href="#CMC">CMC Hospital</a></li>
+      <li><a href="#Nalam">Nalam Medical Center</a></li>
+      <li><a href="#Apollo">Apollo Hospital</a></li>
+    </ul>
+  </div>
+</div> 
+
+<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="center marg">
+				<h2 style="margin-bottom:40px"><pre>REPORT US</pre></h2>
+				<p class="par1"><strong>Report us if you witness any accidents or medical emergencies</strong></p><p><strong>We promise you that you won't find any problem from POLICE</strong></p>
+				<hr>				
+			</div>	
+		</div>
+	</div>
+	<div class="row" style="margin-top:20px">
+		<div class="col-md-2 col-xs-12 col-md-offset-3">
+			<h3 class="center"><strong>LOCATION</strong></h3>
+			<textarea rows="5" cols="20" name="comment" form="usrform">Please mention as accurate location as possible</textarea>
+
+		</div>
+
+		<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-0" style="margin-top:20px margin-bottom:80px">
+			<image src="redcross.png" class="img-circle img-responsive">
+		</div>
+		<div class="col-md-2 col-xs-12">
+			<h3 class="center"><strong>DETAILS</strong></h3>
+			<textarea rows="5" cols="20" name="comment" form="usrform">Your contact number would be appreciated(optional)</textarea>
+
+			
+		</div>
+		        
+     
+    
+	</div>
+
+
+	<center><h1 style="margin-top: 0;padding-top: 15%;font-weight:900">
+
+	
+				<p style="color:black">WE ARE FOR YOU......</p>
+			</h1>
+
+	</center>
+</section>
+
+
+<section class="bg" id="register" style="width:auto;height:auto;background-repeat: no-repeat;background-image: url('regn.jpg');background-size:stretch;opacity: 1">
+<p><h3>Register with us and be in touch!!!</h3></p>
+   <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" >
+      </div>
+    </div>
+    <br>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+    <br>
+	</form>
+	<!--<div class="form-group">
+  <label for="comment">We would love to hear from you:</label>
+  <textarea class="form-control" rows="5" id="comment" style="background-color: #FFF8DC"></textarea>
+</div> -->
+</section>
+ 
+<section class="bg" id="app" style="width:auto;height:auto;background-image: url('applogo.jpg');background-size:auto;background-repeat:repeat;opacity: 0.7">
+<center><h1 style="margin-top: 0;padding-top: 10%;font-weight:1000"><p style="color:orange">
+<p><h3><strong>Download our app and have an easy access!!!</strong></h3></p>
+<p><h4><strong>Click on the following links to download the app on your mobile phone</strong></h4></p>
+<br>
+
+<a href="www.enterthelinkhere.com">Android Users</a>
+<a href="www.enterthelinkhere.com"><br>IOS Users</a>
+<a href="www.enterthelinkhere.com"><br>Windows Users</a>
+
+</section>
+
+<section class="bg" id="contact"  style="width:auto;height:auto;background-repeat: no-repeat;background-image:url('contact.png');background-size:auto">
+<h3 style="text-align: center;padding-top: 10%">Wanna reach us!!!</h3>
+<h4 style="text-align: center">Contact us</h4>
+<p style="text-align: center">Facebook::<a target="_blank" title="follow me on facebook" href="sample.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></p>
+<p style="text-align: center">Instagram::<a target="_blank" title="follow me on instagram" href="sample.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></p>
+<p style="text-align: center">Twitter::<a target="_blank" title="follow me on Twitter" href="sample.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></p>
+	
+</section>
+</body>
+</html>
